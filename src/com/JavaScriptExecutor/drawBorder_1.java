@@ -15,10 +15,7 @@ public class drawBorder_1 extends BaseTest
 		
 		WebElement ele = driver.findElement(By.id("inputUsername"));
 		
-		drawBorder(ele,driver);
-		
-		
-		
+		drawBorder(ele,driver);	
 	}
 
 	public static void drawBorder(WebElement ele, WebDriver driver) 
